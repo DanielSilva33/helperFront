@@ -30,12 +30,12 @@ const Header = () => {
             <div className='absolute right-0 mt-2  p-2 rounded '>
               <ul className='space-y-2'>
                 <li>
-                  <Link href='/' className='hover:text-gray-400'>
+                  <Link href='/cotacao' className='hover:text-gray-400'>
                     Cotação
                   </Link>
                 </li>
                 <li>
-                  <Link href='/' className='hover:text-gray-400'>
+                  <Link href='/feriados' className='hover:text-gray-400'>
                     Feriados
                   </Link>
                 </li>
@@ -45,10 +45,10 @@ const Header = () => {
         </div>
 
         <nav className={`sm:flex space-x-4 hidden text-gray-300`}>
-          <Link href='/' className='hover:text-gray-400 font-bold'>
+          <Link href='/cotacao' className='hover:text-gray-400 font-bold'>
             Cotação
           </Link>
-          <Link href='/' className='hover:text-gray-400 font-bold'>
+          <Link href='/feriados' className='hover:text-gray-400 font-bold'>
             Feriados
           </Link>
         </nav>
