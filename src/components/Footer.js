@@ -8,7 +8,7 @@ const Footer = () => {
         <span className='text-sm text-gray-300 sm:text-center'>
           © {currentYear}{' '}
           <Link href='/' className='hover:underline'>
-            SimpleAPI
+            HelperAPI
           </Link>
           . Todos os direitos reservados.
         </span>

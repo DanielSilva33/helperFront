@@ -1,13 +1,11 @@
 {
-  "name": "simpleapi.com.br",
-  "description": "O simpleApi é o hub definitivo para desbloquear o potencial do mundo das APIs.",
-  "homepage": "www.simpleapi.com.br/",
+  "name": "HelperAPI",
   "author": "Daniel Silva",
   "version": "1.0.0",
   "license": "GPL-3.0-only",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DanielSilva33/simpleapi.com.br.git"
+    "url": "git+https://github.com/DanielSilva33/helperFront"
   },
   "keywords": [
     "api"

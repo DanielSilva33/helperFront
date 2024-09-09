@@ -18,7 +18,7 @@ const Header = () => {
             alt="Logo da API"
             className="w-8 h-8 mr-2 sm:w-auto"
           /> */}
-          <span className='text-lg font-bold'>SimpleAPI</span>
+          <span className='text-lg font-bold'>HelperAPI</span>
         </Link>
 
         <div className='sm:hidden relative'>

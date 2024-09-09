@@ -29,7 +29,7 @@ function Home() {
         </div>
         <div className='container flex flex-col items-center justify-center mx-auto'></div>
         <h2 className='pt-32 mb-1 text-3xl md:text-6xl lg:text-7xl font-semibold text-center text-gray-200'>
-          Recursos Poderosos do SimpleAPI
+          Recursos Poderosos do HelperAPI
         </h2>
         <p className='mx-auto text-lg md:text-xl lg:text-2xl text-center text-gray-300 font-normal leading-relaxed mb-12 lg:w-2/3'>
           Desfrute da simplicidade e eficácia em nossos principais recursos.
