@@ -1,0 +1,41 @@
+{
+  "name": "simpleapi.com.br",
+  "description": "O simpleApi é o hub definitivo para desbloquear o potencial do mundo das APIs.",
+  "homepage": "www.simpleapi.com.br/",
+  "author": "Daniel Silva",
+  "version": "1.0.0",
+  "license": "GPL-3.0-only",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielSilva33/simpleapi.com.br.git"
+  },
+  "keywords": [
+    "api"
+  ],
+  "engines": {
+    "node": "18"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && postcss src/styles/globals.css -o public/tailwind.css",
+    "start": "next start",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write .",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.12.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "jest": "^29.6.4",
+    "postcss": "^8.4.31",
+    "postcss-cli": "^10.1.0",
+    "prettier": "^3.0.0",
+    "tailwindcss": "^3.3.5"
+  }
+}
